@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="Files/style.css">
+    <link rel="shortcut icon" href="https://ideogram.ai/assets/progressive-image/balanced/response/qbDwnNQwT5aCabhDS_D1Rw" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="scoreboard">
+            <div class="score" id="xscore">X : <span id="scoreOfX">&nbsp;0</span></div>
+            <div class="score" id="oscore">O : <span id="scoreOfO">&nbsp;0</span></div>
+            <div class="score" id="drawscore">Draw : <span id="scoreOfDraw">&nbsp;0</span></div>
+        </div>
+        <p class="p">Turn For : <span id="turnX">X</span></p>
+        <div class="game-board">
+            <div class="main1">
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+            </div>
+            <div class="main2">
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+            </div>
+            <div class="main3">
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+                <div class="box"><span></span></div>
+            </div>
+        </div>
+        <div class="button-div">
+            <button id="btn">Reset</button>
+        </div>
+        <footer>
+            <p>Copyright © 2024 || All Right Reserved This Is Made With <i class="fa-solid fa-heart" style="color: #ff0000;"></i> By Muhammad Hamza</p>
+        </footer>
+    </div>
+    <script src="Files/app.js"></script>
+</body>
+</html>

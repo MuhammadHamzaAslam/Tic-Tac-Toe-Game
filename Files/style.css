@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1c1f52; */
+    background-color: #27033d;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.scoreboard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#xscore{
+    background-color: #72cff9;
+}
+#oscore{
+    background-color: #dcbf3f;
+}
+#drawscore{
+    background-color: #c2daf6;
+}
+.score{
+    /* background-color: #101032;
+    color: white; */
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+}
+.game-board{
+    background-color: #6648c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #3d1558;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-div button{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    transition: 3s;
+}
+.button-div button:hover{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+footer p{
+    margin-top: 50px !important;
+    color: wheat;
+}
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #27033d !important;
+    border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: wheat !important;
+    border-radius: 10px !important;
+    /* border: 3px solid #f0f0f0 !important; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3 !important;
+}
